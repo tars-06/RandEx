@@ -1,12 +1,12 @@
-# 🌟 Randex - Random Episode Picker 🎲🎥
+# 🌟 RandEx - Random Episode Picker 🎲🎥
 
-Randex is a Chrome extension that picks a random episode for your favorite web series or anime. Whether you're unsure what to watch or just want a surprise, Randex will help you decide with a single click!
+RandEx is a Chrome extension that picks a random episode for your favorite web series or anime. Whether you're unsure what to watch or just want a surprise, RandEx will help you decide with a single click!
 
 ![wojack](/icon.png)
 
 
 ## 🚀 Features
-- **Generate Random Episodes**: Enter a series name, and Randex will fetch a random episode for you.
+- **Generate Random Episodes**: Enter a series name, and RandEx will fetch a random episode for you.
 - **Surprise Me!**: If you have bookmarked series, this button selects a random episode from one of them.
 - **Bookmark Your Favorites**: Save your frequently watched series for quick access.
 - **Minimalistic & Aesthetic UI**: Designed to be simple, clean, and user-friendly.
@@ -18,14 +18,14 @@ Randex is a Chrome extension that picks a random episode for your favorite web s
 ### 🔹 Load the Extension in Chrome
 1. **Clone or Download** this repository:
    ```sh
-   git clone https://github.com/<your-username>/randex.git
+   git clone https://github.com/tars-06/randex.git
    ```
 2. Open Google Chrome and navigate to:
    ```sh
    chrome://extensions/
    ```
 3. Enable **Developer Mode** (toggle on the top-right).
-4. Click **Load unpacked** and select the downloaded `randex` folder.
+4. Click **Load unpacked** and select the downloaded `RandEx` folder.
 5. RandEx is now installed and ready to use! 🎉
 
 ## 🎮 How to Use
