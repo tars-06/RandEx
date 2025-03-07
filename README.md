@@ -1,4 +1,4 @@
-# 🌟 RandEx - Random Episode Picker 🎲🎥
+# RandEx - Random Episode Picker 🎲🎥
 
 RandEx is a Chrome extension that picks a random episode for your favorite web series or anime. Whether you're unsure what to watch or just want a surprise, RandEx will help you decide with a single click!
 
