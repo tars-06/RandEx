@@ -16,8 +16,8 @@ document.getElementById("generateBtn").addEventListener("click", async () => {
                     "Authorization": "Bearer YOUR_API_KEY"
                 },
                 body: JSON.stringify({
-                    model: "YOUR_MODEL_PATH",
-                    messages: [{role: "user", content: `Give me a season and episode number for ${series}, just answer "Series: $(series name), Season $(season number), Episode $(episode number)" and nothing else`}],
+                    model: "MODEL_PATH",
+                    messages: [{role: "user", content: `Give me a season and episode number for ${series}, just answer series name followed by season number followerd by episode number`}],
                     max_tokens: 20
                 })
             });
@@ -40,8 +40,8 @@ document.getElementById("generateBtn").addEventListener("click", async () => {
                 "Authorization": "Bearer YOUR_API_KEY"
             },
             body: JSON.stringify({
-                model: "YOUR_MODEL_PATH",
-                messages: [{role: "user", content: `Give me a season and episode number for ${series}, just answer "Season $(season number), Episode $(episode number) and nothing else"`}],
+                model: "MODEL_PATH",
+                messages: [{role: "user", content: `Give me a season and episode number for ${series}, just answer season number followed by episode number"`}],
                 max_tokens: 20
             })
         });
