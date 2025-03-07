@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Random Episode Picker",
+    "version": "1.0",
+    "description": "Get a random episode for your favorite web series or anime.",
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.jpeg"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
